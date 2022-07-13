@@ -52,3 +52,23 @@ img {
 /* .carousel .thumbnail {
     box-shadow: inset 0px 0px 0px 4px rgba(45,100,230,1);
 } */ 
+
+
+/* ps5 section */
+
+.section_top h6 {
+    color: var(--btn-blue);
+}
+
+.ps5 .cta {
+    background-color: var(--btn-blue);
+}
+
+.ps5 .container .ps5_section {
+    height: 600px;
+}
+
+.ps5 .container .ps5_thumb,
+.ps5 .container .ps5_thumb img {
+    height: 100%;
+}
