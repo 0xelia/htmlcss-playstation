@@ -1,0 +1,44 @@
+:root {
+    --btn-orange: #CD3D0F;
+    --btn-blue: #2D64E6;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header style */
+
+.main-header .navbar .nav-item .ps_toggle::after {
+    content: url(../img/chevron-down-solid.svg);
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.main-header a {
+    color: black;
+}
+
+/* hero style */
+
+.hero {
+    height: 700px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .container,
+.hero .container .row {
+    height: 100%;
+}
+
+.hero .ps_btn_orange {
+    background-color: var(--btn-orange);
+}
+
+.hero .game_logo {
+    max-width: 230px;
+}
