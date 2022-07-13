@@ -87,6 +87,10 @@ img {
 
 /* products carousel */
 
+.carousel.products .product_thumb {
+    border-bottom: solid transparent 2px;
+}
+
 .carousel.products .product_thumb:hover {
     border-bottom: solid var(--btn-blue) 2px;
 }
@@ -97,6 +101,6 @@ img {
 
 /* game section */
 
-.game {
+.game-hero {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
