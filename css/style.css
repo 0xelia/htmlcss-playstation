@@ -24,23 +24,34 @@ img {
 /* hero style */
 
 .hero {
-    height: 700px;
     background-image: url(../img/jumbo-bg.png);
+    
+}
+
+.fit-content {
+    height: 600px;
     background-size: cover;
     background-position: center;
 }
 
-.hero .container,
-.hero .container .row {
+@media (min-width: 1200px) {
+    .fit-content {
+        height: 700px;
+    }
+}
+
+.fit-content .container,
+.fit-content .container .row {
     height: 100%;
 }
 
-.hero .ps_btn_orange {
+.fit-content .ps_btn_orange {
     background-color: var(--btn-orange);
 }
 
-.hero .game_logo {
+.fit-logo.game_logo .max-w {
     max-width: 230px;
+    max-height: 180px;
 }
 
 /* carousel */
@@ -76,8 +87,16 @@ img {
 
 /* products carousel */
 
-
-
 .carousel.products .product_thumb:hover {
     border-bottom: solid var(--btn-blue) 2px;
+}
+
+.carousel.products {
+    margin-top: 5rem;
+}
+
+/* game section */
+
+.game {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
