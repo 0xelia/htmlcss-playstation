@@ -130,3 +130,11 @@ img {
 .main-footer {
     background-color: var(--ps-footer);
 }
+
+.main-footer .footer_logo img {
+    width: 115px;
+}
+
+.main-footer .footer-bottom_logo img {
+    width: 160px;
+}
