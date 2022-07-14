@@ -2,6 +2,7 @@
     --btn-orange: #CD3D0F;
     --btn-blue: #2D64E6;
     --ps-banner: #161C3B;
+    --ps-footer: #00439C;
 }
 
 img {
@@ -123,4 +124,9 @@ img {
 
 .ps_now {
     background-color: var(--ps-banner);
+}
+
+/* footer */
+.main-footer {
+    background-color: var(--ps-footer);
 }
