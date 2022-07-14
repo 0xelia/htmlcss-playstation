@@ -1,6 +1,7 @@
 :root {
     --btn-orange: #CD3D0F;
     --btn-blue: #2D64E6;
+    --ps-banner: #161C3B;
 }
 
 img {
@@ -34,7 +35,7 @@ img {
     background-position: center;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .fit-content {
         height: 700px;
     }
@@ -53,16 +54,6 @@ img {
     max-width: 230px;
     max-height: 180px;
 }
-
-/* carousel */
-
-/* .carousel .thumbnail img {
-    margin: 0.3rem;
-}
-
-/* .carousel .thumbnail {
-    box-shadow: inset 0px 0px 0px 4px rgba(45,100,230,1);
-} */ 
 
 
 /* ps5 section */
@@ -103,4 +94,33 @@ img {
 
 .game-hero {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* ps4 products */
+
+.ps4-products .cta {
+    background-color: var(--btn-blue);
+    max-width: 120px;
+}
+
+/* ps plus */
+
+.ps_plus .cta {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ps_plus .game_logo .w-75 {
+    width: 75%;
+}
+
+.ps_plus .h-100 {
+    height: 100%;
+}
+
+/* ps now */
+
+.ps_now {
+    background-color: var(--ps-banner);
 }
