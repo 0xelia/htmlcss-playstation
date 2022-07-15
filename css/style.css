@@ -19,6 +19,14 @@ img {
     margin-left: 5px;
 }
 
+.main-header .navbar .nav-item:hover .ps_toggle::after {
+    content: url(../img/chevron-down-solid-hover.svg);
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
 .main-header a {
     color: black;
 }
@@ -66,25 +74,45 @@ img {
 .ps5 .cta {
     background-color: var(--btn-blue);
     min-width: 187px;
+    color: white;
 }
 
-.ps5 .container .ps5_section {
-    height: 600px;
+.ps5 .cta:hover {
+    color: var(--btn-blue);
+    border: solid var(--btn-blue) 1px;
+    background-color: transparent;
 }
 
-.ps5 .container .ps5_thumb,
-.ps5 .container .ps5_thumb img {
+
+.ps5 .container .ps5_thumb {
     height: 100%;
+}
+
+.ps5 .container .ps5_thumb img {
+    aspect-ratio: 1;
+    height: 380px;
+}
+
+@media (min-width: 900px) {
+    .ps5 .container .ps5_thumb img {
+        width: 100%;
+        max-width: 500px;
+        aspect-ratio: 1;
+    }
 }
 
 /* products carousel */
 
+
+
 .carousel.products .product_thumb {
     border-bottom: solid transparent 2px;
+    opacity: 0.6;
 }
 
-.carousel.products .product_thumb:hover {
+.carousel.products .product_thumb.active {
     border-bottom: solid var(--btn-blue) 2px;
+    opacity: 1;
 }
 
 .carousel.products {
@@ -101,9 +129,17 @@ img {
 
 /* ps4 products */
 
+
 .ps4-products .cta {
     background-color: var(--btn-blue);
-    max-width: 120px;
+    m-width: 187px;
+    color: white;
+}
+
+.ps4-products .cta:hover {
+    color: var(--btn-blue);
+    border: solid var(--btn-blue) 1px;
+    background-color: transparent;
 }
 
 /* ps plus */
